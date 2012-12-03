@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DataManager.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DataManager* mgr = [DataManager sharedInstance];
+    [mgr showData];
+    
 }
 
 - (void)didReceiveMemoryWarning

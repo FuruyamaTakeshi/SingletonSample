@@ -18,6 +18,7 @@
 		A4AF46B5163E69C2007189F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AF46B4163E69C2007189F1 /* Default-568h@2x.png */; };
 		A4AF46B8163E69C2007189F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AF46B7163E69C2007189F1 /* ViewController.m */; };
 		A4AF46BB163E69C2007189F1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4AF46B9163E69C2007189F1 /* ViewController.xib */; };
+		A4AF46C3163E69FE007189F1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AF46C2163E69FE007189F1 /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		A4AF46B6163E69C2007189F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4AF46B7163E69C2007189F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4AF46BA163E69C2007189F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A4AF46C1163E69FE007189F1 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A4AF46C2163E69FE007189F1 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				A4AF46B6163E69C2007189F1 /* ViewController.h */,
 				A4AF46B7163E69C2007189F1 /* ViewController.m */,
 				A4AF46B9163E69C2007189F1 /* ViewController.xib */,
+				A4AF46C1163E69FE007189F1 /* DataManager.h */,
+				A4AF46C2163E69FE007189F1 /* DataManager.m */,
 				A4AF46A5163E69C2007189F1 /* Supporting Files */,
 			);
 			path = SingltonSample;
@@ -176,6 +181,7 @@
 				A4AF46AB163E69C2007189F1 /* main.m in Sources */,
 				A4AF46AF163E69C2007189F1 /* AppDelegate.m in Sources */,
 				A4AF46B8163E69C2007189F1 /* ViewController.m in Sources */,
+				A4AF46C3163E69FE007189F1 /* DataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
